@@ -11,6 +11,12 @@ public class Post_method {
 	public void post_data() {
 		
 	
+	//Map<String, Object> map = new HashMap<String, Object>();
+		
+//		map.put("name", "kashyap");
+//		map.put("job", "QA");
+//		System.out.println(map);
+		
 		JSONObject request = new JSONObject();
 		request.put("name", "kashyap");
 		request.put("job", "QA");
